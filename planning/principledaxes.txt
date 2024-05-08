@@ -1,0 +1,22 @@
+volume
+pitch (for base frequency)
+duration
+harmonic/overtone series type (all (ideal string), evens, odds (ideal closed tube), free bar, fixed bar, tympani??? , circular drum (1+1.3n)f0???, ideal circular membrane?, ideal golden ratio rectangular membrane?, etc) (maybe start with sliders for even, odd, fixed bar, free bar and random since membranes are uncommon note instruments)
+uhh: strings and open cylinders usually vibrate uniformly on even and odd harmonics, clarinets (one-end closed cylinders) have mostly only odd harmonics, and bassoons generally have a bias toward even harmonics, etc
+volume of undertones as a percent of overtone volume (100% for horns, 0% for strings)
+first audible tone harmonic number (0 for sting instruments, 4 for xylophones, no lower bound for horns)
+shimmeryness (how self-consistent the base and overtone frequencies are)
+initial noisiness (common in percussion instruments)
+individual harmonic unsteadyness (how much frequencies increase/decrease on account of random noise)
+total unsteadyness (how much the entire sound increases/decreases randomly)
+rate of loss of higher frequency harmonics compared to lower frequency harmonics with note volume decay (a frequency may have 1/2 the life of the one 100Hz below it)
+rate of exponential decay of the sound overall
+amount of time spent as noise before clarifying into note harmonic frequencies (for free bells and blocks and things)
+initial harmonic amplitude distribution (which harmonic frequencies are loudest) (B(v) = a*v^3/(e^(v/c)-1) where c = base_frequency/2.82143937 and a = desired_level/(base_frequency^3/(e^(base_frequence/c)-1)) where desired_level is the desired amplitude of the strongest harmonic.
+comeup time
+comedown time
+just vs pythagorean tuning?
+amount of octave stretching?
+roughness?? -- chance for there to be a random bout of noise
+wetness?? ambient fluid viscocity?? -- squishes frequencies downwards and adds noise
+maybe a whole bunch of different flavors of noise??
