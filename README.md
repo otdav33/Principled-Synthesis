@@ -3,7 +3,7 @@ A synthesizer that uses sliders to replicate a wide variety of instruments
 
 Dependencies:
 - python
-- python packages: tkinter librosa numpy scipy matplotlib pygame
+- python packages: tk librosa numpy scipy matplotlib pygame
 - polyphone for automatically converting .sfz soundfonts to .sf2 (it will run without it, but will spit out an error that you can ignore)
 
 ## Features

@@ -8,8 +8,8 @@ from scipy.io.wavfile import write
 import math
 import matplotlib.pyplot as plt
 import pygame
-import os
 import json
+import subprocess
 
 sr = 44100 #sample rate (samples per second)
 notefrequencies = {index+21: 2**((d-69)/12)*440 for index, d in enumerate(range(21,89))}
