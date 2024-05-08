@@ -18,4 +18,4 @@ Dependencies:
 
 It's easier to just play around with it than to explain. Move the sliders and hit the Generate and Play Sample button. 
 
-When you generate a soundfont, it also saves it to JSON automatically. When asked for a filename, put the filename without the .sfz extension. Good practice is to gove each sound its own folder since it also generates the consitiuent .wav sound files for each note in the same directory, and they can clog things up.
+When you generate a soundfont, it also saves it to JSON automatically. When asked for a filename, put the filename without the .sfz extension. Good practice is to give each sound its own folder since it also generates the consitiuent .wav sound files for each note in the same directory, and they can make things cluttered.
